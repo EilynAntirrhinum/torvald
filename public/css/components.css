@@ -61,8 +61,6 @@ input[type="search"] {
 footer {
     background-color: white;
     flex-shrink: 0;
-
-    padding: 10px 7% 20px 7%;
 }
 
 #footer-list > p {
