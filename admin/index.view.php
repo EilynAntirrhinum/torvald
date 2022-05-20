@@ -12,15 +12,36 @@
                 </div>
                 <div class="theme">
                     <p>Name</p>
-                    <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                        <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    </button>
                 </div>
-                <div class="theme">
-                    <p>Name</p>
-                    <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
-                </div>
-                <div class="theme">
-                    <p>Name</p>
-                    <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+
+                <div id="theme-open" class="collapse">
+                    <div>
+                        <div>
+                            <p>Name</p>
+                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                            </button>
+                        </div>
+                        <div>
+                            <p>Name</p>
+                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                            </button>
+                        </div><div>
+                            <p>Name</p>
+                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                            </button>
+                        </div><div>
+                            <p>Name</p>
+                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <p><a href="#" id="watch-all-link">Посмотреть всё</a></p>
@@ -36,20 +57,65 @@
             <div id="add-course">
                 <button id="add-course-btn">+</button>
             </div>
-            <div class="course">
-                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
-                <p></p>
-                <span></span>
-                <sub></sub>
-                <img>
-            </div>
-            <div class="course">
 
-            </div>
             <div class="course">
+                <div class="edit-btn-course">
+                    <button>
+                        <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    </button>
+                </div>
 
+                <div class="text-course">
+                    <p class="header-course">Название курса курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса описание курса описание курса
+                        описание курса описание курса</p>
+                    <p class="time-course">2 часа</p>
+                </div>
+
+                <div class="img-course">
+                    <img src="/public/img/icons/courses/books.svg">
+                </div>
+            </div>
+
+            <div class="course">
+                <div class="edit-btn-course">
+                    <button>
+                        <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    </button>
+                </div>
+
+                <div class="text-course">
+                    <p class="header-course">Название курса курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса описание курса описание курса
+                        описание курса описание курса</p>
+                    <p class="time-course">2 часа</p>
+                </div>
+
+                <div class="img-course">
+                    <img src="/public/img/icons/courses/books.svg">
+                </div>
+            </div>
+
+            <div class="course">
+                <div class="edit-btn-course">
+                    <button>
+                        <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    </button>
+                </div>
+
+                <div class="text-course">
+                    <p class="header-course">Название курса курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса описание курса описание курса
+                        описание курса описание курса</p>
+                    <p class="time-course">2 часа</p>
+                </div>
+
+                <div class="img-course">
+                    <img src="/public/img/icons/courses/books.svg">
+                </div>
             </div>
         </section>
+        <p><a href="#" id="watch-all-link">Посмотреть всё</a></p>
     </main>
 
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/footer.php"; ?>
