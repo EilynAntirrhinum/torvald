@@ -4,38 +4,27 @@
         <section id="themes">
             <h3>Оглавление</h3>
             <div id="themes-list">
-                <div id="add-theme">
-                    <div id="add-theme-inside">
-                        <button id="add-theme-btn">+</button>
-                        <p>Добавить новую тему</p>
+                <div id="add-section">
+                    <div id="add-section-inside">
+                        <button id="add-section-btn">+</button>
+                        <p>Добавить новый раздел</p>
                     </div>
                 </div>
-                <div class="theme">
+                <div class="section">
                     <p>Name</p>
-                    <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                    <button class="section-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
                         <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
                     </button>
                 </div>
 
                 <div id="theme-open" class="collapse">
                     <div>
-                        <div>
-                            <p>Name</p>
-                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
-                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
-                            </button>
+                        <div id="add-theme">
+                            <button id="add-theme-btn">+</button>
+                            <p>Добавить новую тему</p>
                         </div>
-                        <div>
-                            <p>Name</p>
-                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
-                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
-                            </button>
-                        </div><div>
-                            <p>Name</p>
-                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
-                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
-                            </button>
-                        </div><div>
+
+                        <div class="theme-inside">
                             <p>Name</p>
                             <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
                                 <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
@@ -44,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <p><a href="#" id="watch-all-link">Посмотреть всё</a></p>
+            <p class="watch-all-link"><a href="/admin/views/theory">Посмотреть всё</a></p>
         </section>
     </main>
 
@@ -115,7 +104,7 @@
                 </div>
             </div>
         </section>
-        <p><a href="#" id="watch-all-link">Посмотреть всё</a></p>
+        <p class="watch-all-link"><a href="/admin/views/courses">Посмотреть всё</a></p>
     </main>
 
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/footer.php"; ?>

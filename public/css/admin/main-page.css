@@ -20,7 +20,7 @@ footer {
     margin-bottom: 45px;
 }
 
-#add-theme-btn {
+#add-section-btn {
     background-color: transparent;
     border: 0;
     margin-right: 10px;
@@ -29,7 +29,7 @@ footer {
     padding-bottom: 8px;
 }
 
-#add-theme {
+#add-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,23 +43,23 @@ footer {
     transition: .3s;
 }
 
-#add-theme:hover {
+#add-section:hover {
     box-shadow: -10px 10px #AB98FA;
     transform: translate(10px, -10px);
     transition: .3s;
 }
 
-#add-theme-inside {
+#add-section-inside {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#add-theme-inside > p {
+#add-section-inside > p {
     margin-bottom: 0;
 }
 
-.theme {
+.section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -72,25 +72,18 @@ footer {
 
     padding: 10px;
 
-    /*transition: .3s;*/
 }
 
-/*.theme:hover {*/
-/*    box-shadow: -10px 10px #AB98FA;*/
-/*    transform: translate(10px, -10px);*/
-/*    transition: .3s;*/
-/*}*/
-
-.theme > p {
+.section > p {
     margin-bottom: 0;
 }
 
-.theme-btn {
+.section-btn {
     background-color: transparent;
     border: 0;
 }
 
-.theme-btn > img, .edit-btn-course > button > img {
+.section-btn > img, .edit-btn-course > button > img {
     width: 25px;
     height: 25px;
 }
@@ -106,12 +99,15 @@ footer {
     border: 0;
 }
 
-#watch-all-link {
+.watch-all-link {
     display: flex;
     flex-direction: row-reverse;
-    color: black;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.watch-all-link > a {
+    color: black;
 }
 
 #theme-open {
@@ -124,6 +120,48 @@ footer {
     border-bottom: 1px black solid;
 
     background-color: white;
+}
+
+.theme-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.theme-inside > p {
+    margin: 0;
+}
+
+#add-theme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#add-theme > p {
+    margin: 0;
+}
+
+#add-theme-btn {
+    background-color: transparent;
+    border: 0;
+    margin-right: 10px;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.theme-btn {
+    background-color: transparent;
+    border: 0;
+}
+
+.theme-btn > img {
+    width: 25px;
+    height: 25px;
 }
 
 /* COURSES */
@@ -163,7 +201,6 @@ footer {
     border: 1px solid black;
     height: 350px;
 
-    margin-bottom: 30px;
     padding: 5px;
 
     transition: .3s;
