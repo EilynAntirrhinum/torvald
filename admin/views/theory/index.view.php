@@ -13,17 +13,38 @@
                 &#9998;
             </button>
         </div>
+<!--        <div id="out_editor">-->
+            <div id="editorjs">
 
-        <div id="editorjs">
+            </div>
+<!--        </div>-->
 
-        </div>
     </section>
     <article>
         <p>Раздел 1</p>
         <ul>
             <li>Тема 1</li>
         </ul>
+        <p>Раздел 2</p>
+        <ul>
+            <li>Тема 1</li>
+        </ul>
     </article>
+    <section class="practice">
+        <div class="file">
+            <img src="/public/img/icons/practice.svg" alt="file">
+            Практика 1
+        </div>
+        <div class="btns">
+            <button class="add">
+                +
+            </button>
+            <button class="edit">
+                &#9998;
+            </button>
+        </div>
+
+    </section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
