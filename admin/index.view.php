@@ -1,4 +1,4 @@
-<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/header.php"; ?>
+<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/admin/views/components/header.php"; ?>
 
     <main>
         <section id="themes">
@@ -30,10 +30,21 @@
                                 <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
                             </button>
                         </div>
+                        <div class="theme-inside">
+                            <p>Name</p>
+                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                            </button>
+                        </div>
+                        <div class="theme-inside">
+                            <p>Name</p>
+                            <button class="theme-btn" data-bs-toggle="collapse" data-bs-target="#theme-open">
+                                <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <p class="watch-all-link"><a href="/admin/views/theory">Посмотреть всё</a></p>
         </section>
     </main>
 
@@ -56,8 +67,7 @@
 
                 <div class="text-course">
                     <p class="header-course">Название курса курса</p>
-                    <p class="description-course">Описание курса описание курса описание курса описание курса описание курса
-                        описание курса описание курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса</p>
                     <p class="time-course">2 часа</p>
                 </div>
 
@@ -75,8 +85,7 @@
 
                 <div class="text-course">
                     <p class="header-course">Название курса курса</p>
-                    <p class="description-course">Описание курса описание курса описание курса описание курса описание курса
-                        описание курса описание курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса</p>
                     <p class="time-course">2 часа</p>
                 </div>
 
@@ -94,8 +103,7 @@
 
                 <div class="text-course">
                     <p class="header-course">Название курса курса</p>
-                    <p class="description-course">Описание курса описание курса описание курса описание курса описание курса
-                        описание курса описание курса</p>
+                    <p class="description-course">Описание курса описание курса  описание курса</p>
                     <p class="time-course">2 часа</p>
                 </div>
 
@@ -104,7 +112,6 @@
                 </div>
             </div>
         </section>
-        <p class="watch-all-link"><a href="/admin/views/courses">Посмотреть всё</a></p>
     </main>
 
-<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/footer.php"; ?>
+<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/admin/views/components/footer.php"; ?>

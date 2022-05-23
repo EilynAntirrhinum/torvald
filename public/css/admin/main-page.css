@@ -12,6 +12,7 @@ footer {
 
 #themes {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #themes > h3 {
@@ -99,17 +100,6 @@ footer {
     border: 0;
 }
 
-.watch-all-link {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.watch-all-link > a {
-    color: black;
-}
-
 #theme-open {
     padding: 0 50px 0 50px;
 }
@@ -139,6 +129,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    height: 50px;
 }
 
 #add-theme > p {
@@ -181,7 +173,8 @@ footer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-gap: 2em;
 
-    margin-top: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #add-course {
@@ -207,6 +200,10 @@ footer {
 }
 
 .text-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     padding: 5px 15px 0 15px;
 }
 
@@ -235,8 +232,8 @@ footer {
 }
 
 .img-course > img {
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
 }
 
 .course:hover, #add-course:hover {
