@@ -8,6 +8,8 @@ footer {
     padding: 10px 15% 20px 15%;
 }
 
+/* TORVALD DIALOGUE */
+
 /* HEADER WITH TEST NAME */
 
 #header-test {
@@ -16,6 +18,46 @@ footer {
     background-color: #AB98FA;
 }
 
+.radio-answers {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1em;
+}
+
 .input-header-test {
-    padding: 10px 15% 20px 15%;
+    background-color: transparent;
+    border: 0;
+    width: 30%;
+
+    margin: 0 15% 20px 15%;
+
+    font-size: 30px;
+}
+
+input.input-header-test::placeholder {
+    color: black;
+    font-size: 30px;
+}
+
+.input-question {
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+input.input-question::placeholder {
+    color: black;
+    font-size: 20px;
+}
+
+.input-answer {
+    background-color: transparent;
+    border: 0;
+}
+
+input.input-answer::placeholder {
+    color: black;
+    font-size: 18px;
 }
