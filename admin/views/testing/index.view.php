@@ -4,38 +4,18 @@
     <section id="torvald-dialogue">
         <img src="/public/img/icons/torvald_icon.svg" alt="Торвальд">
     </section>
-</main>
 
-<div id="header-test">
-    <input type="text" name="header-test" class="input-header-test" placeholder="Название теста">
-</div>
+    <section id="tests">
+        <h3>Оглавление</h3>
 
-<main>
-    <section id="test">
-        <div class="question">
-            <div class="inputs">
-                <input type="text" name="question" class="input-question" placeholder="Вопрос">
+        <div>
+            <div id="add-test">
+                <button id="add-test-btn">+</button>
+                <p>Добавить новую тему</p>
             </div>
-            <div class="radio-answers">
-                <div class="radio-answers-inside">
-                    <input type="radio" name="radio-answer[]" class="radio-answer">
-                    <input type="text" name="input-answer[]" class="input-answer" placeholder="Вариант ответа">
-                </div>
 
-                <div class="cbs-inputs-answers-inside">
-                    <input type="radio" name="radio-answer[]" class="radio-answer">
-                    <input type="text" name="input-answer[]" class="input-answer" placeholder="Вариант ответа">
-                </div>
-
-                <div class="cbs-inputs-answers-inside">
-                    <input type="radio" name="radio-answer[]" class="radio-answer">
-                    <input type="text" name="input-answer[]" class="input-answer" placeholder="Вариант ответа">
-                </div>
-
-                <div class="cbs-inputs-answers-inside">
-                    <input type="radio" name="radio-answer[]" class="radio-answer">
-                    <input type="text" name="input-answer[]" class="input-answer" placeholder="Вариант ответа">
-                </div>
+            <div class="test-inside">
+                <p>Name</p>
             </div>
         </div>
     </section>

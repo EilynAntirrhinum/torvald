@@ -10,6 +10,18 @@ footer {
 
 /* TORVALD DIALOGUE */
 
+/* TESTS LIST */
+
+#tests > h3 {
+    color: #FF9900;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+#add-test {
+
+}
+
 /* HEADER WITH TEST NAME */
 
 #header-test {
