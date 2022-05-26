@@ -2,7 +2,7 @@
 
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/admin">
             <img src="/public/img/icons/main-icon.svg" alt="Логотип" class="me-2">
             ТОРВАЛЬД
         </a>

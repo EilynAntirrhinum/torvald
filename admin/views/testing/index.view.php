@@ -6,16 +6,21 @@
     </section>
 
     <section id="tests">
-        <h3>Оглавление</h3>
+        <h3>Тесты</h3>
 
-        <div>
+        <div id="tests-list">
             <div id="add-test">
-                <button id="add-test-btn">+</button>
+                <button id="add-test-btn">
+                    <a href="/admin/app/controllers/testing/add-test.php">+</a>
+                </button>
                 <p>Добавить новую тему</p>
             </div>
 
             <div class="test-inside">
                 <p>Name</p>
+                <button class="test-btn">
+                    <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                </button>
             </div>
         </div>
     </section>
