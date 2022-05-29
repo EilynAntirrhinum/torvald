@@ -3,11 +3,10 @@ main {
 
     padding: 10px 7% 10px 7%;
 }
-
-canvas{
-    
+.auth{
+    width: 300px;
+    height: 300px;
 }
-
 .sizeBlokAuth{
     width: 300px;
     height: 300px;
@@ -17,11 +16,21 @@ canvas{
     justify-content: center;
     text-align: center;
 }
+.posTextTrovald{
+    width:35rem;
+    height:10rem;
+    position: absolute;
+    top: 10em;
+    left: 30rem;
 
+    text-align: justify;
+}
 .posDialogWindow{
- position: absolute;
- top: 10em;
- left: 25rem;
+    width:0px;
+    height:0px;
+    position: absolute;
+     top: 10em;
+    left: 25rem;
 }
 
 .borderNone{
@@ -30,7 +39,28 @@ canvas{
 }
 
 .posAuth{
+    width:0px;
+    height:0px;
     position: absolute;
     top: 8em;
-    right: -66rem;
+    left: 66rem;
+}
+
+.textDiv{
+    padding: 10px 12% 10px 12%;
+}
+
+.textDiv p{
+    display: flex;
+    text-align: justify;
+}
+.colorBlock{
+    position:initial;
+    width: 100%;
+    background-color: #AB98FA;
+    height: 70px;
+    margin-bottom: 2em;
+}
+.colorOrange{
+    color:#FF8A00;
 }
