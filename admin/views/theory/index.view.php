@@ -2,23 +2,20 @@
 <main>
     <section>
         <div class="section">
-            <span>Название раздела</span>
-            <button class="edit">
-                &#9998;
-            </button>
+            <input type="text" class="input input-section" placeholder="Название раздела">
+<!--            <button class="edit">-->
+<!--                &#9998;-->
+<!--            </button>-->
         </div>
         <div class="theme">
-            <span>Название темы</span>
-            <button class="edit">
-                &#9998;
-            </button>
+            <input type="text" class="input input-theme" placeholder="Название темы">
+<!--            <button class="edit">-->
+<!--                &#9998;-->
+<!--            </button>-->
         </div>
-<!--        <div id="out_editor">-->
-            <div id="editorjs">
+        <iframe id="out_editor" src="/admin/views/theory/editor.php" width="100%">
 
-            </div>
-<!--        </div>-->
-
+        </iframe>
     </section>
     <article>
         <p>Раздел 1</p>
@@ -30,34 +27,24 @@
             <li>Тема 1</li>
         </ul>
     </article>
-    <section class="practice">
-        <div class="file">
-            <img src="/public/img/icons/practice.svg" alt="file">
-            Практика 1
-        </div>
-        <div class="btns">
-            <button class="add">
-                +
-            </button>
-            <button class="edit">
-                &#9998;
-            </button>
-        </div>
-
-    </section>
+    <form method="post" action="/admin/app/theory/upload.php" enctype="multipart/form-data">
+        <section class="practice">
+            <div class="file">
+                <img src="/public/img/icons/practice.svg" alt="file">
+                Практика 1
+            </div>
+            <div class="btns">
+                <label class="add">
+                    +
+                </label>
+    <!--            <button class="edit">-->
+    <!--                &#9998;-->
+    <!--            </button>-->
+            </div>
+        </section>
+        <button id="save"> СОХРАНИТЬ </button>
+    </form>
 </main>
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
-<!--<script src="/public/js/editorJS.js" ></script>-->
-<script>
-    var editor = new EditorJS({
-        holder: 'editorjs',
-        tools:{
-            header: Header,
-            image: SimpleImage,
-        }
-    });
-</script>
+
 
 <?php include_once $_SERVER['DOCUMENT_ROOT'].'/views/components/footer.php'?>

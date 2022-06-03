@@ -3,6 +3,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
     flex-wrap: wrap;
 }
 section{
@@ -12,6 +13,7 @@ article{
     background-color: white;
     width: 20%;
     padding: 20px;
+    height: fit-content;
 }
 .edit{
     border: 0;
@@ -81,8 +83,7 @@ article>ul>li{
     object-fit: cover;
 }
 .add{
-    background: none;
-    border: 0;
+    cursor: pointer;
     font-size: 32px;
     font-weight: 600;
     color: white;
@@ -91,6 +92,50 @@ article>ul>li{
     background: white;
     padding: 20px;
 }
+iframe{
+    border: 4px dashed #C4C4C4;
+    min-height: 550px;
+}
+#save{
+    width: 20%;
+    border: 0;
+    background-color: #AB98FA;
+    color: white;
+    padding: 20px 0 20px 0;
+    margin-top: 10px;
+    height: fit-content;
+}
+.input {
+    background-color: transparent;
+    border: 0;
+    width: 30%;
+    font-size: 26px;
+}
+.input-theme{
+    font-size: 18px;
+}
+input.input-section::placeholder {
+    color: black;
+    font-size: 26px;
+}
+input.input-theme::placeholder {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+#add_file{
+    display: none;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/*body::-webkit-scrollbar-thumb{*/
+/*    background-color: #AB98FA;*/
+/*}*/
 /*.ce-toolbar__content{*/
 /*    position: fixed;*/
 /*    left:5%;*/
