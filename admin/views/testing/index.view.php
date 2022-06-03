@@ -19,7 +19,9 @@
             <div class="test-inside">
                 <p>Name</p>
                 <button class="test-btn">
-                    <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    <a href="#">
+                        <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                    </a>
                 </button>
             </div>
         </div>

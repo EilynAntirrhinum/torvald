@@ -6,7 +6,9 @@
             <div id="themes-list">
                 <div id="add-section">
                     <div id="add-section-inside">
-                        <button id="add-section-btn">+</button>
+                        <button id="add-section-btn">
+                            <a href="#">+</a>
+                        </button>
                         <p>Добавить новый раздел</p>
                     </div>
                 </div>
@@ -20,7 +22,9 @@
                 <div id="theme-open" class="collapse">
                     <div>
                         <div id="add-theme">
-                            <button id="add-theme-btn">+</button>
+                            <button id="add-theme-btn">
+                                <a href="#">+</a>
+                            </button>
                             <p>Добавить новую тему</p>
                         </div>
 
@@ -55,7 +59,9 @@
     <main>
         <section id="courses">
             <div id="add-course">
-                <button id="add-course-btn">+</button>
+                <button id="add-course-btn">
+                    <a href="#">+</a>
+                </button>
             </div>
 
             <div class="course">

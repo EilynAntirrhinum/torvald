@@ -67,7 +67,7 @@ footer {
     border: 0;
 }
 
-.test-btn > img {
+.test-btn > a > img {
     width: 25px;
     height: 25px;
 }
@@ -84,6 +84,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 1em;
+    text-align: center;
 }
 
 .input-header-test {

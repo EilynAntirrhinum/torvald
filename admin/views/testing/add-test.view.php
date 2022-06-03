@@ -39,6 +39,10 @@
             </div>
         </div>
     </section>
+
+    <button>
+        СОХРАНИТЬ ТЕСТ
+    </button>
 </main>
 
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/admin/views/components/footer.php"; ?>

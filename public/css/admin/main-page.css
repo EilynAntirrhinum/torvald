@@ -30,6 +30,11 @@ footer {
     padding-bottom: 8px;
 }
 
+#add-section-btn > a {
+    text-decoration: none;
+    color: black;
+}
+
 #add-section {
     display: flex;
     flex-direction: row;
@@ -145,6 +150,10 @@ footer {
     font-weight: 400;
     padding-bottom: 8px;
 }
+#add-theme-btn > a {
+    text-decoration: none;
+    color: black;
+}
 
 .theme-btn {
     background-color: transparent;
@@ -255,4 +264,9 @@ footer {
     color: #FF9900;
 
     padding-bottom: 10px;
+}
+
+#add-course-btn > a {
+    text-decoration: none;
+    color: #FF9900;
 }
