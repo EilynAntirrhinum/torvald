@@ -2,13 +2,13 @@
 <main>
     <section>
         <div class="section">
-            <input type="text" class="input input-section" placeholder="Название раздела">
+            <input type="text" class="input input-section" name="section_name" placeholder="Название раздела">
 <!--            <button class="edit">-->
 <!--                &#9998;-->
 <!--            </button>-->
         </div>
         <div class="theme">
-            <input type="text" class="input input-theme" placeholder="Название темы">
+            <input type="text" class="input input-theme" name="theme_name" placeholder="Название темы">
 <!--            <button class="edit">-->
 <!--                &#9998;-->
 <!--            </button>-->
@@ -36,13 +36,14 @@
             <div class="btns">
                 <label class="add">
                     +
+                    <input type="file" name="practice" id="input_file">
                 </label>
     <!--            <button class="edit">-->
     <!--                &#9998;-->
     <!--            </button>-->
             </div>
         </section>
-        <button id="save"> СОХРАНИТЬ </button>
+        <button id="save" name="save"> СОХРАНИТЬ </button>
     </form>
 </main>
 

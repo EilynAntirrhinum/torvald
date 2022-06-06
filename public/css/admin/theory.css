@@ -133,6 +133,9 @@ form{
     justify-content: space-between;
     align-items: center;
 }
+#input_file{
+    display: none;
+}
 /*body::-webkit-scrollbar-thumb{*/
 /*    background-color: #AB98FA;*/
 /*}*/
