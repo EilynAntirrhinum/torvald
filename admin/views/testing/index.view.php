@@ -13,11 +13,12 @@
                 <button id="add-test-btn">
                     <a href="/admin/app/controllers/testing/add-test.php">+</a>
                 </button>
-                <p>Добавить новую тему</p>
+                <p>Добавить новый тест</p>
             </div>
 
             <div class="test-inside">
                 <p>Name</p>
+
                 <button class="test-btn">
                     <a href="#">
                         <img src="/public/img/icons/elipsis.svg" alt="Редактировать">

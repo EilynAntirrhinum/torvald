@@ -40,9 +40,18 @@
         </div>
     </section>
 
-    <button>
-        СОХРАНИТЬ ТЕСТ
-    </button>
+    <form method="post" id="save-test-block">
+        <button id="save-test-btn" name="save-test-btn">
+            СОХРАНИТЬ ТЕСТ
+        </button>
+
+        <button id="add-question-btn" name="add-question-btn">
+            ДОБАВИТЬ ЕЩЁ ОДИН ВОПРОС
+        </button>
+    </form>
+
 </main>
 
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/admin/views/components/footer.php"; ?>
+
+<script src="/public/js/add-question.js"></script>

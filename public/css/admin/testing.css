@@ -30,6 +30,7 @@ footer {
     transform: translate(10px, -10px);
     transition: .3s;
 }
+
 #tests > h3 {
     color: #FF9900;
     font-weight: 600;
@@ -123,4 +124,29 @@ input.input-question::placeholder {
 input.input-answer::placeholder {
     color: black;
     font-size: 18px;
+}
+
+#save-test-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#save-test-btn {
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: #FF9900;
+    border: 0;
+    color: white;
+}
+
+#add-question-btn {
+    padding: 10px 20px 10px 20px;
+    background-color: #AB98FA;
+    border: 0;
+    color: white;
+}
+
+.question {
+    padding: 10px 0 20px 0;
 }
