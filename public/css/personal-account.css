@@ -1,0 +1,37 @@
+main {
+    flex: 1 0 auto;
+
+    padding: 10px 7% 10px 7%;
+}
+
+.NavTransparent{
+    background-color: transparent;
+}
+.nav-tabs .nav-link {
+    border-radius: 0;
+    border: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    /* background-color: #FF8A00; */
+}
+
+.nav-tabs .nav-link.active{
+    
+    background-color: #AB98FA;
+    color: black 
+}
+
+table thead{
+    background-color: #AB98FA;
+    color:black;
+    /* text-align: justify; */
+}
+
+
+/* .table>:not(caption)>*>*{
+    background-color: none;
+}
+.notСompletedColor{
+    background-color: #FF8A00;
+} */
+
