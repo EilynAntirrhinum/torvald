@@ -13,8 +13,15 @@ class Sections
 
     public static function creatingSection($name)
     {
-        $stmt = self::pdo()->prepare("INSERT INTO sections(name) VALUES :name");
+        $stmt = self::pdo()->prepare("INSERT INTO sections(name) VALUES (:name)");
         $stmt->execute(["name" => $name]);
+    }
+
+    public static function checkSections($name)
+    {
+        $stmt = self::pdo()->prepare("SELECT name FROM sections WHERE name = :name");
+        $stmt->execute(["name" => $name]);
+        return $stmt->fetch();
     }
 
     public static function getSections()

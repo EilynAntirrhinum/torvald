@@ -6,9 +6,11 @@
             <div id="themes-list">
                 <div id="add-section">
                     <div id="add-section-inside">
-                        <button id="add-section-btn">
-                            <a href="#">+</a>
-                        </button>
+                        <form method="post">
+                            <button id="add-section-btn" name="add-section-btn">
+                                <a href="/admin/app/controllers/theory/">+</a>
+                            </button>
+                        </form>
                         <p>Добавить новый раздел</p>
                     </div>
                 </div>
