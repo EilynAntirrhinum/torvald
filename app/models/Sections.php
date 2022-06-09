@@ -28,4 +28,8 @@ class Sections
         $stmt = self::pdo()->query("SELECT name FROM section ORDER BY id ASC LIMIT 4");
         return $stmt->fetchAll();
     }
+    public static function update_section($name, $id){
+        $stmt = self::pdo()->prepare('UPDATE section SET name = :name WHERE id = :id');
+        $stmt->execute(['name'=>$name, 'id' =>$id]);
+    }
 }
