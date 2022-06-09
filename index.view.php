@@ -1,6 +1,10 @@
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/header.php"; ?>
 
 <main>
+
+</main>
+
+<?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/footer.php"; ?>
     <div class="container">
         <div class="row">
             <div class="col">
