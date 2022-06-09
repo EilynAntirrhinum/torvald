@@ -8,7 +8,9 @@ body {
 
     background-color: #f1f1f1;
     height: 100%;
+    color: black;
     font-family: 'Jost', sans-serif;
+
 }
 
 /*  HEADER */
@@ -61,8 +63,6 @@ input[type="search"] {
 footer {
     background-color: white;
     flex-shrink: 0;
-
-    padding: 10px 7% 20px 7%;
 }
 
 #footer-list > p {
