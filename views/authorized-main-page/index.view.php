@@ -33,9 +33,20 @@
 <!--        </div>-->
 <!--    </div>-->
 
-    <section class="about-python">
-        <p class="header-python">Python</p>
-        <p class="text-python">Различные языки программирования обычно доминируют в какой-то отрасли (или нескольких), для работы в которой они хорошо подходят. Но это не значит, что программист ограничен использовать строго определённый инструмент, поэтому любой язык общего назначения, такой как Python, может применять для создания чего-угодно.</p>
+    <section id="themes">
+        <h3>Оглавление</h3>
+        <div id="themes-list">
+            <div class="section">
+                <p>Name</p>
+            </div>
+
+            <div id="theme-open" class="collapse">
+                    <div class="theme-inside">
+                        <p>Name</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 
@@ -46,6 +57,12 @@
 <main>
     <section id="courses">
         <div class="course">
+            <div class="edit-btn-course">
+                <button>
+                    <img src="/public/img/icons/elipsis.svg" alt="Редактировать">
+                </button>
+            </div>
+
             <div class="text-course">
                 <p class="header-course">Название курса курса</p>
                 <p class="description-course">Описание курса описание курса описание курса</p>
@@ -64,5 +81,3 @@
 </main>
 
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/footer.php"; ?>
-
-<script src="/public/js/dialogWindow.js"></script>
