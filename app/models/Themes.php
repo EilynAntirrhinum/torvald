@@ -1,4 +1,5 @@
 <?php
+
 namespace App\models;
 
 use App\services\Connection;
@@ -10,11 +11,13 @@ class themes
         return Connection::make($config);
     }
 
+
     public static function getAllThemes()
     {
         $stmt = self::pdo()->query("SELECT * FROM themes");
         return $stmt->fetchAll();
     }
+
 
     public static function creatingTheme($section, $name, $text, $practice_link, $practice_name)
     {
@@ -26,8 +29,10 @@ class themes
     {
         $stmt = self::pdo()->prepare("SELECT * FROM themes WHERE section_id = :section_id");
         $stmt->execute(["section_id" => $section_id]);
+
         return $stmt->fetchAll();
     }
+
     public static function update_theme($section, $name, $text, $practice_link, $practice_name, $id)
     {
         $stmt = self::pdo()->prepare("UPDATE themes SET name = :name, text= :text,  pracitce_link = :practice_link, practice_name = :practice_name WHERE id = :id");

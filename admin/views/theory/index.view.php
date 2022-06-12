@@ -20,14 +20,14 @@
         </textarea>
     </section>
     <article>
-        <p>Раздел 1</p>
+        <?php foreach ($sections as $sect):?>
+        <p><?=$sect->name?></p>
         <ul>
-            <li>Тема 1</li>
+            <?php foreach ($themes as $theme):?>
+            <li><? if ($theme->section_id==$sect->id) echo $theme->name?></li>
+            <?endforeach;?>
         </ul>
-        <p>Раздел 2</p>
-        <ul>
-            <li>Тема 1</li>
-        </ul>
+        <?endforeach;?>
     </article>
 
         <section class="practice">

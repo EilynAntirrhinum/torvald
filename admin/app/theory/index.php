@@ -28,5 +28,6 @@ if (isset($_POST['save'])) {
     else{
         echo 'ERROR';
     }
+    header("Location: ".$_SERVER['PHP_SELF']);
 }
 include_once $_SERVER['DOCUMENT_ROOT'] . '/admin/views/theory/index.view.php';
