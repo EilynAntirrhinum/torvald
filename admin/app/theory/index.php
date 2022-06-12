@@ -1,14 +1,32 @@
 <?php
 
-include_once $_SERVER['DOCUMENT_ROOT']. '/bootstrap.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/bootstrap.php';
+
 $title = 'Добавление теории';
 $style = 'admin/theory.css';
 
-use App\models\Theory;
+use App\models\Sections;
+use App\models\Themes;
 
-if (isset($_POST['save'])){
-    move_uploaded_file($_FILES['practice']['tmp_name'], $_SERVER['DOCUMENT_ROOT'] . '/public/img/items/' . $_FILES['practice']['name']);
-    Theory::update_section($_POST['section_name'], $_GET['section_id']);
-    Theory::update_theme($_GET['section_id'], $_POST['theme_name'], $text, $_FILES['practice']['name'], 'Практика 1', '1');
+$sections = Sections::getSections();
+$themes = Themes::getAllThemes();
+
+if (isset($_POST['save'])) {
+    if (!Sections::checkSections($_POST["section_name"])) {
+        Sections::creatingSection($_POST["section_name"]);
+
+        if ($_POST['theme_name'] != "") {
+//            Themes::creatingTheme(1, $_POST['theme_name'], "fff", "/public/docs/" . $_FILES['practice']['name'], $_POST['pr_name']);
+            Themes::creatingTheme(1, $_POST['theme_name'], "fff", "jdfhdjhdk", $_POST['pr_name']);
+        }
+//    } else {
+//        move_uploaded_file($_FILES['practice']['tmp_name'], $_SERVER['DOCUMENT_ROOT'] . '/public/docs/' . $_FILES['practice']['name']);
+//        Sections::update_section($_POST['section_name'], 1);
+//        Themes::update_theme(1, $_POST['theme_name'], "jjj", $_FILES['practice']['name'], 'Практика 1', '1');
+//    }
+    }
+    else{
+        echo 'ERROR';
+    }
 }
-include_once $_SERVER['DOCUMENT_ROOT'].'/admin/views/theory/index.view.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/admin/views/theory/index.view.php';
