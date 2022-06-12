@@ -47,9 +47,11 @@
     <section id="courses">
         <div class="course">
             <div class="text-course">
-                <p class="header-course">Название курса курса</p>
-                <p class="description-course">Описание курса описание курса описание курса</p>
-                <p class="time-course">2 часа</p>
+                <a href="#">
+                    <p class="header-course">Название курса курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса</p>
+                    <p class="time-course">2 часа</p>
+                </a>
             </div>
 
             <div class="img-course">
@@ -59,7 +61,7 @@
     </section>
 
     <div class="watch-all-courses">
-        <a href="#">Посмотреть всё</a>
+        <a href="/app/controllers/courses">Посмотреть всё</a>
     </div>
 </main>
 

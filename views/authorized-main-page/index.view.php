@@ -64,9 +64,11 @@
             </div>
 
             <div class="text-course">
-                <p class="header-course">Название курса курса</p>
-                <p class="description-course">Описание курса описание курса описание курса</p>
-                <p class="time-course">2 часа</p>
+                <a href="#">
+                    <p class="header-course">Название курса курса</p>
+                    <p class="description-course">Описание курса описание курса описание курса</p>
+                    <p class="time-course">2 часа</p>
+                </a>
             </div>
 
             <div class="img-course">
