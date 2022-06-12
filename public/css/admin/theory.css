@@ -1,4 +1,4 @@
-main{
+main>form{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -126,15 +126,21 @@ input.input-theme::placeholder {
 #add_file{
     display: none;
 }
-form{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.tox-tinymce{
+    border-radius: 0;
 }
+/*form{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
 #input_file{
     display: none;
+}
+#pr_name{
+    color: white;
 }
 /*body::-webkit-scrollbar-thumb{*/
 /*    background-color: #AB98FA;*/
