@@ -1,9 +1,10 @@
 <?php include_once $_SERVER["DOCUMENT_ROOT"] . "/views/components/header.php"; ?>
 
 <main>
-    <div id="header-courses">
-        <h3>Курсы</h3>
-    </div>
+    <section class="about-courses">
+        <p class="header-courses">Курсы</p>
+        <p class="text-courses">Сайт "Торвальд" предоставляет бесплатное прохождение подготовки\курсов.</p>
+    </section>
 
     <section id="courses-list">
         <div class="course">

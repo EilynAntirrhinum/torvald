@@ -16,10 +16,27 @@
             <ul class="navbar-nav mb-2 mb-lg-0 me-3">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/app/controllers/theory">Теория</a>
+                    <a class="nav-link" href="/app/controllers/theory"
+                       onmouseover="this.style.color='#FF8A00'"
+                       onmouseout="this.style.color='#000000'">
+                        Теория
+                    </a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="/app/controllers/testing">Тестирование</a>
+                    <a class="nav-link" href="/app/controllers/testing"
+                       onmouseover="this.style.color='#FF8A00'"
+                       onmouseout="this.style.color='#000000'">
+                        Тестирование
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/app/controllers/courses"
+                       onmouseover="this.style.color='#FF8A00'"
+                       onmouseout="this.style.color='#000000'">
+                        Курсы
+                    </a>
                 </li>
             </ul>
 

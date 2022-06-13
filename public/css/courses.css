@@ -8,11 +8,21 @@ footer {
     padding: 10px 15% 20px 15%;
 }
 
-#header-courses > h3 {
+.about-courses {
+    margin-bottom: 30px;
+}
+
+.header-courses {
     font-size: 32px;
     font-weight: 600;
     color:#FF8A00;
     margin: 10px 0 30px 0;
+}
+
+.text-courses {
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
 }
 
 #courses-list {
