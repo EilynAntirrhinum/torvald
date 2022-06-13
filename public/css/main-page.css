@@ -8,50 +8,56 @@ footer {
     padding: 10px 15% 20px 15%;
 }
 
-/*.auth {*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*}*/
-/*.sizeBlockAuth {*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*    background-color: #FF8A00;*/
+.auth {
+    width: 300px;
+    height: 300px;
+}
+.sizeBlockAuth {
+    width: 300px;
+    height: 300px;
+    background-color: #FF8A00;
 
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    text-align: center;*/
-/*}*/
-/*.posTextTrovald {*/
-/*    width:35rem;*/
-/*    height:10rem;*/
-/*    position: absolute;*/
-/*    top: 10em;*/
-/*    left: 30rem;*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.posTextTrovald {
+    width:30rem;
+    height:10rem;
+    position: absolute;
+    top: 9em;
+    left: 30rem;
 
-/*    text-align: justify;*/
-/*}*/
-/*.posDialogWindow{ */
-/*    width:0px;*/
-/*    height:0px;*/
-/*    position: absolute;*/
-/*     top: 10em;*/
-/*    left: 25rem;*/
-/*}*/
+    text-align: justify;
+}
+.posDialogWindow{ 
+    width:0px;
+    height:0px;
+    position: absolute;
+    top: 10em;
+    left: 26rem;
+}
 
-/*.borderNone {*/
-/*    border-radius: 0;*/
-/*    border: none;*/
-/*}*/
+.borderNone {
+    border-radius: 0;
+    border: none;
+}
 
-/*.posAuth {*/
-/*    width:0px;*/
-/*    height:0px;*/
-/*    position: absolute;*/
-/*    top: 8em;*/
-/*    left: 66rem;*/
-/*}*/
+.posAuth {
+    width:0px;
+    height:0px;
+    position: absolute;
+    top: 8em;
+    left: 61rem;
+}
+.posTorvaldImg{
+    width:300px;
+    height:300px;
+    position: relative;
+    left: -4em;
+}
 
-/* INFO */
+ /* INFO */
 
 .about-python {
     margin-bottom: 30px;
@@ -70,7 +76,7 @@ footer {
     text-align: justify;
 }
 
-/* COURSES */
+ /* COURSES  */
 
 #header-courses {
     width: 100%;

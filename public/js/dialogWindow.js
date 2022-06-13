@@ -1,6 +1,6 @@
 const WIDTH = 100
 const WIDTH1 = 715
-const height  = 245
+const height  = 230
 const DPI_WIDTH = WIDTH1*2
 const DPI_HEIGHT = height*2
 
